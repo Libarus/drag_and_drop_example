@@ -3,7 +3,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import './App.css';
 // import { useState } from 'react';
 // import { ListItems } from './components/list-items';
-import { DraggableList } from './components/draggable-list';
+import { Drag } from './components/drag';
 
 function App() {
     // const [list1, setList1] = useState<string[]>(['qqq', 'www', 'eee', 'rrr']);
@@ -19,7 +19,7 @@ function App() {
             <DndProvider backend={HTML5Backend}>
                 {/*<ListItems list={list1} onDrop={onDrop} color='red' />
                 <ListItems list={list2} onDrop={onDrop} color='green' />*/}
-                <DraggableList />
+                <Drag />
             </DndProvider>
         </>
     );

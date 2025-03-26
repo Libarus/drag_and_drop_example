@@ -1,5 +1,11 @@
+import { ReactElement } from "react";
+
 export type TItem = {
     id: string;
-    uuid: string;
     title: string;
+};
+
+export type TItemComponent = {
+    id: string;
+    component: ReactElement;
 };
